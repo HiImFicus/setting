@@ -1,0 +1,75 @@
+// .vscode/settings.json
+{
+  "files.watcherExclude": {
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/.results": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/.results": true
+  },
+  "html.format.wrapLineLength": 0,
+  "prettier.proseWrap": "preserve",
+  "prettier.printWidth": 80,
+  "prettier.jsxSingleQuote": true,
+  "prettier.insertPragma": false,
+  "prettier.singleQuote": true,
+  "prettier.semi": true,
+  "prettier.trailingComma": "all",
+  "prettier.bracketSpacing": true,
+  "prettier.endOfLine": "lf",
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+
+  "prettier.arrowParens": "always",
+  "prettier.quoteProps": "as-needed",
+
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.minimap.size": "fill",
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.fixAll.eslint": "always"
+  },
+  "eslint.enable": true,
+  "eslint.run": "onType",
+  "eslint.options": {
+    "configFile": ".eslintrc.json"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "vim.handleKeys": {
+    "<C-w>": false,
+    "<C-p>": false,
+    "<C-t>": false,
+    "<C-a>": false,
+    "<C-c>": false,
+    "<C-v>": false
+  }
+}
