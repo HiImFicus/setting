@@ -1,0 +1,15 @@
+// .vscode/keybindings.json
+[
+  {
+    "key": "alt+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "shift+alt+[",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "shift+alt+]",
+    "command": "workbench.action.nextEditor"
+  }
+]
