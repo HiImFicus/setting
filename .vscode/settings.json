@@ -39,6 +39,9 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -58,6 +61,7 @@
     "configFile": ".eslintrc.json"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -70,6 +74,13 @@
     "<C-t>": false,
     "<C-a>": false,
     "<C-c>": false,
-    "<C-v>": false
-  }
+    "<C-v>": false,
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false,
+    "<C-b>": false
+  },
+  "git.enabled": true,
+  "git.decorations.enabled": true,
+  "git.ignoreMissingGitWarning": true
 }
