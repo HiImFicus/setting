@@ -11,5 +11,13 @@
   {
     "key": "shift+alt+]",
     "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "shift+ctrl+]",
+    "command": "editor.fold"
+  },
+  {
+    "key": "shift+ctrl+[",
+    "command": "editor.unfold"
   }
 ]
