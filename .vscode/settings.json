@@ -1,5 +1,6 @@
 // .vscode/settings.json
 {
+ 
   "files.watcherExclude": {
     "**/node_modules": true,
     "**/.next": true,
@@ -74,6 +75,10 @@
     "<C-a>": false,
     "<C-c>": false,
     "<C-v>": false,
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false,
+    "<C-b>": false,
     "<C-.>": false
   },
   "git.enabled": true,
