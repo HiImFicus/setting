@@ -7,14 +7,15 @@
   },
   "search.exclude": {
     "**/node_modules": true,
-    "**/.next": true
+    "**/.next": true,
+    "**/.results": true
   },
   "html.format.wrapLineLength": 0,
   "prettier.proseWrap": "preserve",
   "prettier.printWidth": 80,
-  "prettier.jsxSingleQuote": true,
+  //"prettier.jsxSingleQuote": true,
   "prettier.insertPragma": false,
-  "prettier.singleQuote": true,
+  //"prettier.singleQuote": true,
   "prettier.semi": true,
   "prettier.trailingComma": "all",
   "prettier.bracketSpacing": true,
@@ -60,6 +61,7 @@
     "configFile": ".eslintrc.json"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -76,9 +78,14 @@
     "<C-d>": true,
     "<C-s>": false,
     "<C-z>": false,
+    "<C-b>": false,
     "<C-.>": false
   },
   "git.enabled": true,
   "git.decorations.enabled": true,
-  "git.ignoreMissingGitWarning": true
+  "git.ignoreMissingGitWarning": true,
+  "workbench.iconTheme": "pop-icon-theme",
+  "pop-icon-theme.folders.theme": "specific",
+  "pop-icon-theme.activeIconPack": "nest"
 }
+
