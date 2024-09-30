@@ -1,0 +1,11 @@
+Auto Close Tag
+Auto Complete Tag
+Auto Rename Tag
+GitLens
+Highlight Matching Tag
+Indent-Rainbow
+POP! Icon Theme
+Prettier
+Rainbow CSV
+Remote SSH
+Vim
