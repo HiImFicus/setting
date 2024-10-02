@@ -1,0 +1,15 @@
+PowerToys
+AutoClicker
+Syncthing
+tinytask
+AlphaClicker
+geek
+typora
+obsidian
+DBeaver
+Vim
+LogExpert
+Optimizer
+WinSCP
+vscode
+sublime
